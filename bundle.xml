@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adapt_framework>
+    <bundle>
+        <label>Adapt Developer</label>
+        <name>developer</name>
+        <type>application</type>
+        <version>1.0.0</version>
+        <namespace>\adapt\developer</namespace>
+        <description>Develop bundles with Adapt Developer</description>
+        <copyright>2015 Matt Bruton</copyright>
+        <license>MIT</license>
+        <vendor>Adapt Framework</vendor>
+        <vendor_website>https://www.adaptframework.com/bundles/developer</vendor_website>
+        <depends_on>
+            <bundle>
+              <name>jquery</name>
+            </bundle>
+            <bundle>
+              <name>bootstrap_views</name>
+              <version>1.0</version>
+            </bundle>
+            <bundle>
+              <name>font_awesome_views</name>
+              <version>1.0</version>
+            </bundle>
+            <bundle>
+              <name>forms</name>
+              <version>1.0</version>
+            </bundle>
+            <bundle>
+              <name>adapt</name>
+              <version>2.0</version>
+            </bundle>
+        </depends_on>
+    </bundle>
+</adapt_framework>
